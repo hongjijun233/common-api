@@ -1,0 +1,1 @@
+liquibase --driver=com.mysql.jdbc.Driver  --classpath="D:\environment\liquibase-3.5.5-bin\lib\mysql-connector-java-5.0.8-bin.jar"  --changeLogFile="D:\projects\lianghongji\common-api\src\main\resources\script\sql\create_table000001.sql"  --url="jdbc:mysql://localhost/commonapi?characterEncoding=utf8"  --username=root  --password=admin update

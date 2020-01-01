@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/commonapi?serverTimezone=UTC&characterEncoding=UTF-8
+    username: root
+    password: admin
+server:
+  servlet:
+    context-path: /common-api
+  port: 9000
+logging:
+  path: /var/log/common-api
